@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header and Navigation Styles */
+nav {
+    background-color: #00539C;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav #logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav #search input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+nav #search button {
+    background-color: #48A9A6;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Header Styles */
+header {
+    background-color: #0072BB; /* A calming blue shade */
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* If you have a banner image and want to use a color overlay */
+header {
+    background-image: url('banner.jpg'); /* Your banner image */
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 114, 187, 0.7); /* Semi-transparent blue overlay */
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+main section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+main section h2 {
+    color: #00539C;
+}
+
+/* Term Articles */
+main .term {
+    background-color: #E8F4FA;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 5px solid #48A9A6;
+}
+
+/* Interactive Quizzes Section */
+#quizzes {
+    background-color: #D0F0C0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Aside Styles */
+aside {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+aside blockquote {
+    font-style: italic;
+    color: #666;
+    border-left: 4px solid #00539C;
+    padding-left: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #00539C;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design for smaller devices */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    nav ul li {
+        padding: 5px 0;
+    }
+    
+    header {
+        padding: 20px;
+    }
+    
+    main {
+        padding: 10px;
+    }
+}
