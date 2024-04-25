@@ -4,6 +4,8 @@ body, h1, h2, h3, p, ul, li, figure, figcaption {
     padding: 0;
 }
 
+
+
 /* General body styles */
 body {
     font-family: 'Arial', sans-serif; /* Clean and professional font */
@@ -244,5 +246,10 @@ figcaption {
 }
 
 .contact-form button:hover {
-    background-color: #0072BB;
+    background-color: #ffffff;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: underline;
 }
