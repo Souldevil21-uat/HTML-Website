@@ -70,7 +70,7 @@ article {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #0072BB;
+    background-color: #90ee90;
     color: white;
 }
 
@@ -247,9 +247,4 @@ figcaption {
 
 .contact-form button:hover {
     background-color: #ffffff;
-}
-
-#footer a {
-    color: #ffffff;
-    text-decoration: underline;
 }
